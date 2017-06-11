@@ -1,6 +1,6 @@
 group 'net.rollinginsanity'
 version '1.0-SNAPSHOT'
-
+apply plugin: 'idea'
 apply plugin: 'java'
 
 sourceCompatibility = 1.8
@@ -11,4 +11,12 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+jar {
+    baseName = 'randomator'
+    version = "0.1.0"
+    manifest {
+        attributes 'Main-Class': 'net.rollinginsanity.randomator.RandomatorRun'
+    }
 }
