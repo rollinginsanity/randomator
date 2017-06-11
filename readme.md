@@ -9,6 +9,18 @@ I can't promise it will work in all situations. I'm not a good java dev.
 
 Otherwise have fun.
 
+Generates a name in the format of:
+
+`adjective_noun`
+
+Some samples:
+
+```
+awful_luncheonette
+modern_dressing
+rapid_pioneer
+```
+
 To run:
 
 `java -jar randomator-jar-file.jar`
@@ -25,3 +37,7 @@ public class RandomTest {
     }
 }
 ```
+
+DISCLAIMER:
+
+Some names are funnier than others.
